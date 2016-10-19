@@ -1,4 +1,4 @@
-# Bootstrap
+# Bootstrap / Media Query
 
 1 ) Media Queries
 
