@@ -2,9 +2,12 @@
 <html>
 <head>
 <style>
-@media print and (min-width: 200px) {
+@media print{
 	h1{
 		font-size:100px;
+	}
+	#code{
+		display:none;
 	}
 }
 </style>
@@ -13,7 +16,19 @@
 
 <h1>Media Query type : print </h1>
 <p>The media query will only apply if the media type screen and width 200px</p>
+<br><br><br>
 
+<pre><p id="code">
+@media print{
+	h1{
+		font-size:100px;
+	}
+	#code{
+		display:none;
+	}
+}
+</p>
+		
 </body>
 </html>
 

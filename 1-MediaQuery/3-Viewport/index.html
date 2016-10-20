@@ -3,21 +3,31 @@
 <head>
 <style>
 body {
-    background-color: red;
+    background-color: pink;
 }
 
-@media screen and (min-width: 480px) {
-    body {
+@media screen and (min-width: 700px){
+	body{
+		font-size:30px;
         background-color: lightgreen;
-    }
+	}
 }
 </style>
 </head>
 <body>
 
 <h1>Media Query type : all </h1>
-<p>The media query will only apply if the media type all and width 200px</p>
+<p>The media query will only apply if the media type screen and width 700px</p>
 
+
+<pre><p>
+@media screen and (min-width: 700px){
+	body{
+		font-size:30px;
+        background-color: lightgreen;
+	}
+}
+</p>
 </body>
 </html>
 
